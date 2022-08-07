@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 200vh;
+    background-color: #2d3439 ;           /*#2d3436 */
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards{
+    flex-basis: 20%;
+    background-color: black;
+    margin: 10px;
+    border-radius: 15px;
+    
+    
+}
+.cards:hover{
+    transform: translateY(-10px);
+    transition: 0.03s linear;
+}
+
+.cards-image{
+    border-radius: 15px;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+
+
+
+.title1{
+   
+    background: url('img/shiva.jpg');
+    
+    
+}
+
+.title2{
+   
+    background: url('img/durga.jpg');
+    background-size: cover;
+    
+}
+
+.title3{
+  
+    background: url('img/krishnaa.jpg');
+    background-size: cover;
+    
+}
+
+.title4{
+   
+    background: url('img/narasimha.jpg');
+    background-size: cover;
+    
+    flex-basis: 25%;
+}
+
+.title5{
+   
+    background: url('img/bappa.jpg');
+    background-size: cover;
+    
+    flex-basis: 25%;
+}
+
+.title6{
+   
+    background: url('img/kali.jpg');
+    background-size: cover;
+    
+    flex-basis: 25%;
+}
+
+.title7{
+   
+    background: url('img/hanuman.jpg');
+    background-size: cover;
+    
+    flex-basis: 25%;
+}
+
+.title8{
+   
+    background: url('img/lakshmi.jpg');
+    background-size: cover;
+    
+    flex-basis: 25%;
+}
+.cards-body{
+  padding: 15px;
+   
+}
+
+h2{
+    margin: 10px;
+}
+
+.button{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#btn1{
+    padding: 5px;
+    background-color: transparent;
+    margin: 20px 0px;
+    border-radius: 25px;
+    border: 2px solid rgb(130, 130, 238);
+    color: wheat;
+   
+}
+
+#btn2{
+    padding: 5px;
+    background-color: transparent;
+    margin: 20px 0px;
+    border-radius: 25px;
+    border: 2px solid red;
+    color: wheat;
+   
+}
+
+#btn3{
+    padding: 5px;
+    background-color: transparent;
+    margin: 20px 0px;
+    border-radius: 25px;
+    border: 2px solid green;
+    color: wheat;
+   
+}
+
+#btn4{
+    padding: 5px;
+    background-color: transparent;
+    margin: 20px 0px;
+    border-radius: 25px;
+    border: 2px solid brown;
+    color: wheat;
+   
+}
+
+#btn5{
+    padding: 5px;
+    background-color: transparent;
+    margin: 20px 0px;
+    border-radius: 25px;
+    border: 2px solid yellow;
+    color: wheat;
+   
+}
+#btn6{
+    padding: 5px;
+    background-color: transparent;
+    margin: 20px 0px;
+    border-radius: 25px;
+    border: 2px solid blue;
+    color: wheat;
+   
+}
+#btn7{
+    padding: 5px;
+    background-color: transparent;
+    margin: 20px 0px;
+    border-radius: 25px;
+    border: 2px solid orangered;
+    color: wheat;
+   
+}
+#btn8{
+    padding: 5px;
+    background-color: transparent;
+    margin: 20px 0px;
+    border-radius: 25px;
+    border: 2px solid sienna;
+    color: wheat;
+   
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:active {                                
+    border: 2px solid darkgray;
+    color: darkgray;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .container{
+        width: 100%;
+        padding: 15px;
+}
+}
